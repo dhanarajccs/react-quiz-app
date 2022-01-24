@@ -1,9 +1,11 @@
 import React from 'react';
+import './app.css'
 
 function App() {
   return (
-    <div className="App">
-      Quiz App
+    <div className="app">
+      <div className="main">main</div>
+      <div className="pyramid">money</div>
     </div>
   );
 }
