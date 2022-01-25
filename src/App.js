@@ -24,12 +24,15 @@ function App() {
     <div className="app">
       <div className="main">main</div>
       <div className="pyramid">
-
         <ul className="moneyList">
-          <li className="moneyListItem active">
-            <span className="moneyListItemNumber">4</span>
-            <span className="moneyListItemAmount">$ 400</span>
-          </li>
+          {
+            moneyPyramid.map((m) => (
+            <li className="moneyListItem active">
+              <span className="moneyListItemNumber" key={m.id}>{m.id}</span>
+              <span className="moneyListItemAmount">{m.amount}</span>
+            </li>
+            ))  
+          }
         </ul>
 
       </div>
