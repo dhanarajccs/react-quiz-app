@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="app">
       <div className="main">main</div>
-      <div className="pyramid">money</div>
+      <div className="pyramid">
+
         <ul className="moneyList">
           <li className="moneyListItem active">
             <span className="moneyListItemNumber">4</span>
@@ -23,8 +24,9 @@ function App() {
             <span className="moneyListItemNumber">4</span>
             <span className="moneyListItemAmount">$ 400</span>
           </li>
-          
         </ul>
+        
+      </div>
 
     </div>
   );
