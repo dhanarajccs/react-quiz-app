@@ -27,8 +27,8 @@ function App() {
         <ul className="moneyList">
           {
             moneyPyramid.map((m) => (
-            <li className="moneyListItem active">
-              <span className="moneyListItemNumber" key={m.id}>{m.id}</span>
+            <li className="moneyListItem">
+              <span className="moneyListItemNumber">{m.id}</span>
               <span className="moneyListItemAmount">{m.amount}</span>
             </li>
             ))  
